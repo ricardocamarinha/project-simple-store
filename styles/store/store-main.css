@@ -1,0 +1,39 @@
+.main-bg{
+  background-image:linear-gradient(90deg, #7F7F7F,#808080,#54575C);
+}
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.item{
+  margin-top: 20px;
+  color: white;
+  margin-bottom: 20px;
+  width: 270px;
+
+}
+
+.item img{
+  border-radius: 4px;
+  width: 280px;
+}
+
+.item img:hover{
+  width: 275px;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 25px black;
+}
+
+.price{
+  color: black;
+}
+
+.color-price{
+  color: white;
+}

@@ -1,0 +1,101 @@
+.footer-bg{
+  background: black;
+  padding: 30px;
+  color: white;
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 80px;
+}
+
+.detail{
+  display: none;
+}
+.contact{
+  color: darkgray;
+}
+
+.contact h3{
+  margin-bottom: 15px;
+  color: white;
+}
+
+.information a{
+  color: darkgray;
+}
+
+.information a:hover{
+  color: azure;
+}
+
+.information h3{
+  margin-bottom: 15px;
+  color: white;
+}
+
+.social{
+  display: flex;
+  gap: 15px;
+}
+
+.contact::after{
+  display: block;
+  content: "";
+  height: 4px;
+  width: 150px;
+  background: white;
+  position: relative;
+  bottom: 55px;
+  margin-bottom: 30px;
+}
+
+@media (max-width:600px){
+  .footer{
+  grid-template-columns: 1fr;
+  }
+
+  .contact::before{
+    display: block;
+    content: "";
+    height: 4px;
+    width: 150px;
+    background: white;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .contact::after{
+    display: block;
+    content: "";
+    height: 4px;
+    width: 150px;
+    background: white;
+    position: relative;
+    bottom: 55px;
+    margin-bottom: 30px;
+    margin-top: 2px;
+  }
+
+  .information::before{
+    display: block;
+    content: "";
+    height: 4px;
+    width: 150px;
+    background: white;
+    position: relative;
+    bottom: 20px;
+    margin-top: -75px;
+  }
+
+  .contact h3{
+    margin-bottom: 5px;
+  }
+
+  .information h3{
+    margin-bottom: 5px;
+  }
+  
+
+}
