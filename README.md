@@ -1,2 +1,3 @@
 # project-simple-store
-A simple design of a responsive store page. (Um projeto simples de uma página de loja responsiva.)
+
+<a href="https://ricardocamarinha.github.io/project-simple-store/store.html">Executar Site</a>
