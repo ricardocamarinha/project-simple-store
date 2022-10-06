@@ -78,9 +78,9 @@ ol,ul,li{
 }
 
 #burguer{
+  display: none;
   background-color: #B59354;
   border-radius: 5px;
-  display: none;
 }
 
 @media (max-width:700px){
