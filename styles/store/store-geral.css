@@ -80,12 +80,13 @@ ol,ul,li{
 #burguer{
   background-color: #B59354;
   border-radius: 5px;
+  display: none;
 }
 
 @media (max-width:700px){
 
-  .material-symbols-rounded{
-    color: #B59354;
+  #burguer{
+    display: block;
     cursor: pointer;
   }
 
