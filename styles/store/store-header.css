@@ -40,9 +40,9 @@
 
 
 @media (max-width:700px){
-
-  .material-symbols-rounded{
-    color: #B59354;
+  #burguer{
+    background-color: #B59354;
+    border-radius: 4px;
     cursor: pointer;
   }
 
